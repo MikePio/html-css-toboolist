@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* general */
+body{
+  background-color: #f6f8f9;
+}
+
+
+
+
+/* header */
+header{
+  padding: 15px;
+  background-color: white;
+}
+
+.logo-text{
+  font-size: 35px;
+}
+
+.logo{
+  vertical-align: middle;
+}
+
+
+
+/* main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
