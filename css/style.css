@@ -32,13 +32,8 @@ header{
 
 /* main */
 
+/* colore icona hsl(222deg 9% 29%) */
 
-/* hsl(204deg 86% 61%) azzurro */
-/* hsl(262deg 68% 67%) viola chiaro */
-/* hsl(34deg 88% 57%) arancio */
-/* hsl(165deg 42% 57%) verde */
-/* hsl(328deg 60% 62%) rosa */
-/* hsl(69deg 68% 47%) verde chiaro */
 .container{
   width: 50%;
   margin: 40px auto 0px;
@@ -60,10 +55,9 @@ header{
   width: 80px;
   height: 30px;
   display: inline-block;
+  text-align: center;
 
 }
-
-
 
 
 #button_section{
@@ -75,6 +69,7 @@ header{
   width: 100px;
   height: 30px;
   display: inline-block;
+  text-align: center;
 
 }
 
@@ -86,28 +81,122 @@ header{
   border-bottom-right-radius: 4px;
 }
 
+.container_title_list{
+  margin-top: 20px;
+}
 
+.icon{
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
 
+.title_list{
+  color: hsl(222deg 9% 29%);
 
+}
 
+.list_item{
+  margin: 5px;
+  margin-left: 8px;
+}
 
+.check{
+  color: rgb(0, 255, 0);
+  border: rgb(4, 255, 4) solid 1px;
+  border-radius: 50%;
+  padding: 2px;
+  
+}
 
+.cross{
+  color: red;
+  border: rgb(255, 0, 0) solid 1px;
+  border-radius: 50%;
+  padding: 2px;
+  
+}
 
+.item_text{
+  color: hsl(222deg 9% 29%);
 
+}
 
+/* hsl(204deg 86% 61%) azzurro */
+/* hsl(262deg 68% 67%) viola chiaro */
+/* hsl(34deg 88% 57%) arancio */
+/* hsl(165deg 42% 57%) verde */
+/* hsl(328deg 60% 62%) rosa */
+/* hsl(69deg 68% 47%) verde chiaro */
 
+.editorial_type{
+  background-color: hsl(204deg 86% 61%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
 
+.q1_goals_type{
+  background-color: hsl(262deg 68% 67%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
 
+.recruiting_type{
+  background-color: hsl(165deg 42% 57%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
 
+.mobile_type{
+  background-color: hsl(34deg 88% 57%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
 
+.website_type{
+  background-color: hsl(328deg 60% 62%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
 
-
-
-
-
-
-
-
-
-
-
+.sales_type{
+  background-color: hsl(69deg 68% 47%);
+  color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 40px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+}
