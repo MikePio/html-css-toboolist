@@ -33,7 +33,58 @@ header{
 /* main */
 
 
+/* hsl(204deg 86% 61%) azzurro */
+/* hsl(262deg 68% 67%) viola chiaro */
+/* hsl(34deg 88% 57%) arancio */
+/* hsl(165deg 42% 57%) verde */
+/* hsl(328deg 60% 62%) rosa */
+/* hsl(69deg 68% 47%) verde chiaro */
+.container{
+  width: 50%;
+  margin: 40px auto 0px;
+}
 
+.container_1{
+  background-color: white;
+  padding: 15px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+
+#button_task{
+  background-color: hsl(204deg 86% 61%);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  display: inline-block;
+
+}
+
+
+
+
+#button_section{
+  border: grey solid 1px;
+  background-color: white;
+  color: grey;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+
+}
+
+.container_2{
+  margin-top: 5px;
+  background-color: white;
+  padding: 15px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
 
 
 
