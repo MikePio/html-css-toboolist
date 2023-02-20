@@ -8,87 +8,90 @@
   <title>Toboolist</title>
 </head>
 <body>
-<header>
-  <div>
-    <img src="img/Logo.png" alt="Logo" class="logo">
-    <span class="logo-text"><strong>Toboolist</strong></span>
-  </div>
-</header>
-
-<main>
-  <div class="container">
-    <div class="container_1">
-      <span id="button_task">Add Task</span>
-      <span id="button_section">Add Section</span>
-      
+  
+  <header>
+    <div>
+      <img src="img/Logo.png" alt="Logo" class="logo">
+      <span class="logo-text">Toboolist</span>
     </div>
-    
-    <div class="container_2">
-      <!-- <div>&#8964;</div> freccia verso il basso -->
+  </header>
 
-      <!-- new task -->
-      <div class="container_title_list">
-        <img src="img/downward-arrow.png" alt="icon" class="icon">
-        <span class="title_list"><strong>New Task</strong></span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text" >Quartery Newsletter</span>
-        <span class="editorial_type">Editorial</span>
-      </div>
-      
-      <!-- today -->
-      <div class="container_title_list">
-        <img src="img/downward-arrow.png" alt="icon" class="icon">
-        <span class="title_list"><strong>Today</strong></span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Recruiting blog post</span>
-        <span class="editorial_type">Editorial</span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Mobile app launch</span>
-        <span class="q1_goals_type">Q1 Goals</span>
-      </div>
-      <div class="list_item">
-        <span class="cross">&cross;</span>
-        <span class="item_text">Interview John H.</span>
-        <span class="recruiting_type">Recruiting</span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Summit update to mobile storefronts</span>
-        <span class="mobile_type">Mobile</span>
+  <main>
+    <div class="container">
+      <div class="container_1">
+        <button id="button_task">Add Task</button>
+        <button id="button_section">Add Section</button>
+        
       </div>
 
-      <!-- Upcoming -->
-      <div class="container_title_list">
-        <img src="img/downward-arrow.png" alt="icon" class="icon">
-        <span class="title_list"><strong>Upcoming</strong></span>
-      </div>
-      <div class="list_item">
-        <span class="cross">&cross;</span>
-        <span class="item_text">Schedule meeting with Alex</span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Homepage refresh</span>
-        <span class="website_type">Website</span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Onboard new Sales team members</span>
-        <span class="sales_type">Sales</span>
-      </div>
-      <div class="list_item">
-        <span class="check">&check;</span>
-        <span class="item_text">Review editorial calendar</span>
-        <span class="editorial_type">Editorial</span>
+      <div class="container_2">       <!-- ! si può fare un solo container con un border-bottom: 1px solid #F6F8F9; che crea uno spazio unico -->
+        <!-- &#9662 freccia verso il basso 1 -->
+        <!-- &#9660 freccia verso il basso 2 -->
+
+        <!-- * qui è peferibile utilizzare ul e li al posto dei div -->
+        <!-- new task -->
+        <div class="container_title_list">
+          <img src="img/downward-arrow.png" alt="icon" class="icon">   <!-- ! invece di inserire ogni volta un immagine è preferibile inserire content: '\25BE' in css una sola volta con ::before-->
+          <span class="title_list"><strong>New Task</strong></span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text" >Quartery Newsletter</span>
+          <span class="editorial_type">Editorial</span>
+        </div>
+        
+        <!-- today -->
+        <div class="container_title_list">
+          <img src="img/downward-arrow.png" alt="icon" class="icon">
+          <span class="title_list"><strong>Today</strong></span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Recruiting blog post</span>
+          <span class="editorial_type">Editorial</span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Mobile app launch</span>
+          <span class="q1_goals_type">Q1 Goals</span>
+        </div>
+        <div class="list_item">
+          <span class="cross">&cross;</span>
+          <span class="item_text">Interview John H.</span>
+          <span class="recruiting_type">Recruiting</span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Summit update to mobile storefronts</span>
+          <span class="mobile_type">Mobile</span>
+        </div>
+
+        <!-- Upcoming -->
+        <div class="container_title_list">
+          <img src="img/downward-arrow.png" alt="icon" class="icon">
+          <span class="title_list"><strong>Upcoming</strong></span>
+        </div>
+        <div class="list_item">
+          <span class="cross">&cross;</span>
+          <span class="item_text">Schedule meeting with Alex</span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Homepage refresh</span>
+          <span class="website_type">Website</span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Onboard new Sales team members</span>
+          <span class="sales_type">Sales</span>
+        </div>
+        <div class="list_item">
+          <span class="check">&check;</span>
+          <span class="item_text">Review editorial calendar</span>
+          <span class="editorial_type">Editorial</span>
+        </div>
       </div>
     </div>
-  </div>
-</main>
+  </main>
 </body>
 </html>
